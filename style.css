@@ -1,7 +1,20 @@
+
+body {
+    background-color: #514e4e;
+}
+
 h1, h2 {
+
+    color: hwb(238 3% 29%);
+}
+
+p, a, ul {
+   color: hwb(132 27% 9%);
+}
+
+
+
+.menu, p, ul, h1, h2 {
     font-family: 'Outfit', sans-serif;
 }
 
-.menu, p, ul {
-    font-family: 'Outfit', sans-serif;
-}

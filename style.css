@@ -1,20 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
-    background-color: #514e4e;
+    text-align: center;
 }
 
-h1, h2 {
-
-    color: hwb(238 3% 29%);
+a {
+    font-family:monospace;
+    color: black
+    
 }
 
-p, a, ul {
-   color: hwb(132 27% 9%);
+.container-header {
+
+    padding: 3%;
+    
+}
+
+.imagem {
+    width: 150px;
+    margin-top: 10px;   
+}
+
+button:active {
+    font-style:oblique;
+}
+
+button:hover {
+    background-color: blueviolet;
+    transition:0.4s;
+}
+
+button {
+    color:darkgrey;
+    background-color: #cda2d1;
+    padding: 10px;
+    border-style:unset;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.botoes {
+    margin-top: 30px;
+    
+
 }
 
 
 
-.menu, p, ul, h1, h2 {
+ button, p, ul, h1, h2 {
     font-family: 'Outfit', sans-serif;
 }
 

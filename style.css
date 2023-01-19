@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 
 body {
@@ -9,13 +10,14 @@ body {
 
 a {
     font-family:monospace;
-    color: black
-    
+    color: black    
 }
 
 .container-header {
-
-    padding: 3%;
+    margin-top: 30px;
+    margin-right: 35%;
+    margin-left: 35%;
+    /* background-color: red; */
     
 }
 
@@ -44,13 +46,42 @@ button {
 
 .botoes {
     margin-top: 30px;
-    
-
 }
 
-
-
- button, p, ul, h1, h2 {
+ p, ul, h1, h2 {
     font-family: 'Outfit', sans-serif;
 }
 
+.container-sobre-mim {
+    height: 120px;
+    /* background-color: aqua; */
+    /* border: 2px solid  blueviolet; */
+    margin-right: 25%;
+    margin-left: 25%;
+    display: inline-block;
+}
+
+.habilidades {
+    /* background-color: cadetblue; */
+    margin-right: 30%;
+    margin-left: 31%;  
+}
+
+ul {
+    padding: 10px;
+}
+
+p {
+    /* background-color:#cda2d1; */
+    line-height: 20px;
+    margin-top: 7px;
+}
+
+.podcast {
+    margin-right: 30%;
+    margin-left: 31%; 
+}
+
+.btn-rodape {
+    padding: 15px;
+}

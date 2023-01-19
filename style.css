@@ -7,7 +7,7 @@
 body {
     text-align: center;
     background-image: url(./src/imagens/background-3.jpg);
-    background-position: center;
+    background-size: cover;
 }
 
 a {
